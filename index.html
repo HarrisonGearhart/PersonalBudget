@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Budgeting App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Budget Planner</h1>
+    <p>Enter your income to see your recommended budget:</p>
+
+    <input type="number" id="incomeInput" placeholder="Paycheck, Monthly Salary, etc." />
+
+    <button id="calculateBtn">Calculate Budget</button>
+
+    <div id="budgetResults" class="hidden">
+      <h2>Your Budget</h2>
+      <ul>
+        <li>Necessities: $<span id="necessitiesAmount">0</span></li>
+        <li>Wants: $<span id="wantsAmount">0</span></li>
+        <li>Savings: $<span id="savingsAmount">0</span></li>
+      </ul>
+      <button id="copyBtn">Copy Budget</button>
+    </div>
+
+    <div id="chatGPTLink" class="hidden">
+      <p>Want more advice?</p>
+      <a href="https://chat.openai.com/" target="_blank">
+        Ask ChatGPT
+      </a>
+    </div>
+
+    <button id="darkModeToggle" class="dark-toggle">Toggle Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
