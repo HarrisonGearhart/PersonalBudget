@@ -2,6 +2,14 @@
 
 A **mobile-first, clean, and easy-to-use web app** that helps users quickly calculate and allocate their income across key spending categories. Designed for simplicity and usability, this app provides instant budgeting guidance, allows users to copy their budget, and offers a link to get further advice from ChatGPT. Now includes **dark mode** for comfortable use in low-light environments.  
 
+## Live Demo
+
+Experience the app in action:
+
+👉 [View Live Website](https://harrisongearhart.github.io/PersonalBudget/)
+
+Feel free to explore the budgeting features and dark mode toggle directly in your browser.
+
 ## Table of Contents
 
 - [Features](#features)  
